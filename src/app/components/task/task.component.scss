@@ -1,0 +1,26 @@
+// ESTILOS PARA LAS TAREAS
+.urgent-task {
+    color: orange;
+}
+
+.blocking-task {
+    color: tomato;
+}
+
+.info-task {
+    color: rgb(159, 159, 220);
+}
+
+.msg-terminado {
+    color: rgb(123, 201, 123);
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.msg-pendiente {
+    color: tomato;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}

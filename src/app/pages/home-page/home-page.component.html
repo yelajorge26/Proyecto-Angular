@@ -1,0 +1,19 @@
+<h1 class="text-page">Amigos Disponibles</h1>
+<h3 class="text-page">Bienvenido!</h3>
+
+<ng-container *ngIf="contactoSeleccionado; else noSeleccionado">
+    <h4 class="text-page">Amigo Seleccionado: {{contactoSeleccionado.name.first}} {{contactoSeleccionado.name.last}}</h4>
+</ng-container>
+<ng-template #noSeleccionado>
+    <div>
+        <p class="text-page">Selecciona a tu amigo</p>
+    </div>
+</ng-template>
+
+<button class="btn" mat-raised-button color="primary" (click)="navegarAContacts()">Ver todos tus amigos</button>
+
+<p class="text-page">Filtros:</p>
+<div class="text-page">
+    <a [routerLink]="['/dashboard/contacts']" [queryParams]="{sexo: 'female'}">Amigas | </a>
+    <a [routerLink]="['/dashboard/contacts']" [queryParams]="{sexo: 'male'}">Amigos</a>
+</div>

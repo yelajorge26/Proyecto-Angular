@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Jimi",
+                "last": "Hatala"
+            },
+            "location": {
+                "street": {
+                    "number": 7296,
+                    "name": "Visiokatu"
+                },
+                "city": "Eurajoki",
+                "state": "Tavastia Proper",
+                "country": "Finland",
+                "postcode": 23206,
+                "coordinates": {
+                    "latitude": "-28.4504",
+                    "longitude": "-145.0674"
+                },
+                "timezone": {
+                    "offset": "-6:00",
+                    "description": "Central Time (US & Canada), Mexico City"
+                }
+            },
+            "email": "jimi.hatala@example.com",
+            "login": {
+                "uuid": "523bf0d2-132a-4740-8e6c-1d765d8ee945",
+                "username": "heavypeacock210",
+                "password": "toonarmy",
+                "salt": "fnjNCqbW",
+                "md5": "f90a4215c848401d74030b4354d1cfa2",
+                "sha1": "47efb31ca940102430f428b7914a41fb809c2ff4",
+                "sha256": "585ba5513330cc6b6ab95859899f47262152f06a9bd73aadb4b2385f3236bd22"
+            },
+            "dob": {
+                "date": "1991-11-30T09:16:16.380Z",
+                "age": 30
+            },
+            "registered": {
+                "date": "2012-03-07T14:07:44.339Z",
+                "age": 10
+            },
+            "phone": "04-858-962",
+            "cell": "043-307-94-82",
+            "id": {
+                "name": "HETU",
+                "value": "NaNNA767undefined"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/38.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/38.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/38.jpg"
+            },
+            "nat": "FI"
+        }
+    ],
+    "info": {
+        "seed": "a2114a7dfac24132",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}
